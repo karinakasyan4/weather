@@ -1,0 +1,88 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(27, 76, 143, 0.3), rgba(0,0,0,0.6));
+    min-height: 100vh;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#input{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#input:focus{
+    background-color: #FFFDDE;
+}
+
+#when-where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+#date{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#temperature{
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+#feelsLike{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+#conditions{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Varela Round', sans-serif;
+}
+#variation{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1570483358100-6d222cdea6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
